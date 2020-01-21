@@ -1,0 +1,16 @@
+@media screen and (max-width:800px) {
+    .containar {
+        flex-direction: column;
+
+    }
+
+    .containar .block {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .containar .block:hover {
+        transform: translateY(0px);
+
+    }
+}

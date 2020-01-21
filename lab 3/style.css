@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ div img{
+	border-radius: 50%;
+	width: 10%;
+
+}
+header{
+	display: flex;
+}
+.logo{
+	background-color: green;
+	width: 50%;
+}
+.contact{
+	background-color: yellow;
+	width: 50%;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+nav li{
+	list-style: none;
+	background-color: orange;
+	padding: 20px;
+	border-radius: 12px;
+
+
+
+}
+nav li:hover .drp-content{
+	display: block;
+	position:absolute;
+	background-color: transparent;
+	top: 18%;
+	right: 1%;
+	border: 1px solid white;
+
+	
+}
+ ul li:hover .drp-content{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	top: 45%;
+	left: 12%;
+	padding: 1%;
+}
+ul li .drp-content{
+	display: none;
+}
+nav li .drp-content{
+	display: none;
+}
+ nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: crimson;
+
+}
+section{
+	display: flex;
+
+
+}
+.navigation{
+	background-color: purple;
+	width: 29.7%;
+	height: 70vh;
+
+}
+.description h4{
+	text-align: center;
+	padding-top: 7%;
+
+}
+
+.navigation ul li{
+	padding: 10%;
+}
+.navigation ul li a{
+	background-color: yellowgreen;
+	padding: 3%;
+	border-radius: 12px;
+}
+p img{
+	border-radius: 16px;
+	width: 20%;
+	height: 20%;
+}
+
+
+
+.description{
+	background-color: skyblue;
+	width: 76.3%;
+	height: 70vh;
+
+	
+
+}
+footer{
+	background-color: deepskyblue;
+	height: 13.5vh;
+}
+footer h6{
+	text-align: center;
+	padding: 2%;
+	font-size: 20px;
+}

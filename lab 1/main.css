@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* -----------Header CSS--------------------------- */
+header {
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    padding: 70px 70px;
+}
+
+header img {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+
+
+}
+
+header img:first-child {
+    float: left;
+}
+
+header img:nth-child(2) {
+    float: right;
+}
+
+.welcome h5 {
+    font-size: 30px;
+}
+
+/* -------------X----Header CSS--------------X------------- */
+
+/* -----------------------------Section CSS--------------------------- */
+
+h2 {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 1%;
+    height: 20vh;
+}
+
+p {
+    text-align: center;
+    padding: 60px 60px;
+    height: 20vh;
+    /*---------- vh=vertical height-------------------*/
+    background-color: blue;
+    color: white;
+
+
+
+}
+
+/* ----------------X-------------Section CSS-----------------X---------- */
+
+/* ------------Footer CSS----------------------------- */
+footer {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 70px 70px;
+}
+
+/* ------X------Footer CSS---------------X-------------- */

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookstore>
+    <book>
+        <title>Computer Fundamental</title>
+        <price>$110</price>
+
+    </book>
+    <book>
+        <title>C programming</title>
+        <price>$160</price>
+
+    </book>
+    <book>
+        <title>Computer Networking</title>
+        <price>$1010</price>
+
+    </book>
+    <book>
+        <title>OOP in JAVA</title>
+        <price>$190</price>
+
+    </book>
+    <book>
+        <title>Web Technology</title>
+        <price>$150</price>
+
+    </book>
+</bookstore>

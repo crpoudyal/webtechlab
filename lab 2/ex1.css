@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Header Css Start--------------------------------*/
+header {
+	background-color: yellow;
+}
+
+.logo img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.contact {
+	width: 48%;
+	padding: 1%;
+	background-color: green;
+	float: right;
+	color: white;
+	text-align: right;
+
+}
+
+.logo {
+	width: 48%;
+	padding: 1%;
+	float: left;
+	background-color: blue;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Header Ends-----------------------------------*/
+
+/*Navigarion CSS  Start----------------------------*/
+nav {
+	background-color: red;
+
+}
+
+nav ul {
+	padding: 0.5%;
+
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	padding: 1%;
+	background-color: lightseagreen;
+	margin-right: 1%;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+
+
+
+nav ul li:hover {
+	background-color: maroon;
+
+
+}
+
+/*Navigarion CSS Ends ----------------------------*/
+/*Section-----------------------------*/
+article {
+	float: left;
+	background-color: palevioletred;
+	width: 50%;
+	color: white;
+
+}
+
+
+aside {
+	float: right;
+	background-color: cyan;
+	width: 50%;
+	color: white;
+
+}
+
+h5:hover {
+	background-color: chocolate;
+}
+
+h5 {
+	text-align: left;
+	padding: 3%;
+	display: block;
+
+}
+
+p,
+h4 {
+	text-align: center;
+	height: 15vh;
+	background-color: green;
+	color: white;
+}
+
+/*Section ends----------------*/
+/*Footer-------------------------*/
+footer {
+	background-color: crimson;
+	text-align: center;
+	color: white;
+	height: 10vh;
+	padding: 1%;
+}
+
+/*Footer Ends-------------------------*/
